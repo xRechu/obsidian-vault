@@ -1,0 +1,67 @@
+{
+  "active_context": [
+    {
+      "order": 3,
+      "path": "_index.md",
+      "tokens": 1236,
+      "type": "summary"
+    },
+    {
+      "order": 2,
+      "path": "project_management/_index.md",
+      "tokens": 605,
+      "type": "summary"
+    },
+    {
+      "order": 2,
+      "path": "skills/_index.md",
+      "tokens": 159,
+      "type": "summary"
+    },
+    {
+      "importance": 55,
+      "path": "project_management/portfolio_automation/portfolio_automation.md",
+      "tokens": 117,
+      "type": "context"
+    },
+    {
+      "importance": 55,
+      "path": "project_management/portfolio_automation/vibe_advertising_pipeline/vibe_advertising_pipeline.md",
+      "tokens": 531,
+      "type": "context"
+    },
+    {
+      "importance": 55,
+      "path": "skills/content_creator/content_creator_skill.md",
+      "tokens": 270,
+      "type": "context"
+    },
+    {
+      "importance": 50,
+      "path": "project_management/case_studies/akash_network_ai_automation.md",
+      "tokens": 361,
+      "type": "context"
+    },
+    {
+      "importance": 50,
+      "path": "project_management/portfolio_automation/vibe_advertising_pipeline.md",
+      "tokens": 331,
+      "type": "context"
+    },
+    {
+      "importance": 50,
+      "path": "research/srp_framework/strategic_research_protocol.md",
+      "tokens": 356,
+      "type": "context"
+    }
+  ],
+  "generated_at": "2026-03-18T09:14:50.067Z",
+  "lane_tokens": {
+    "contexts": 1966,
+    "stubs": 0,
+    "summaries": 2000
+  },
+  "source_fingerprint": "36843256c4afe780d5b051bdd326918016aff324b04bbc4fced2c5063d34e397",
+  "total_tokens": 3966,
+  "version": 1
+}
