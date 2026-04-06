@@ -26,7 +26,13 @@ Cel: Zastąpienie ręcznej pracy w Ads Managerze autonomicznym agentem, który o
 - **WooCommerce/Medusa API:** Źródło prawdziwych zdjęć produktów.
 - **GitHub (Assets):** Repozytorium na "bazę wiedzy" (logi z audytów, szablony kreacji).
 
-## Rules
+## Security & Safety Rules (The Anti-Ban Protocol)
+- **Official Path Only:** Używaj bezpośredniego Meta Graph API + własnej aplikacji (Live Mode) + System User.
+- **No Public MCPs:** Unikaj publicznych serwerów MCP dla Meta. Ryzyko blokady "rykoszetem" z powodu współdzielonego IP/App ID.
+- **Rate Limiting Control:** Agent musi mieć zdefiniowane limity zapytań, aby nie zostać uznanym za scrapera/atak DDoS.
+- **System User:** Zawsze używaj dedykowanego System Usera do komunikacji maszyna-maszyna. To sygnał dla Meta, że to oficjalna integracja.
+
+## Operational Rules
 - **Safety First:** Nigdy nie aktywuj reklam automatycznie. Zawsze status `PAUSED`.
-- **Data-Driven:** Każda decyzja o stworzeniu nowej kreacji musi wynikać z danych (np. "ta grafika miała wysoki CTR, zrób jej variantes").
+- **Data-Driven:** Każda decyzja o stworzeniu nowej kreacji musi wynikać z danych.
 - **Asset Pipeline:** Unikaj "stockowych" looków. Bazuj na realnych fotkach z realizacji/produktu.
