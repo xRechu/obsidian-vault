@@ -16,3 +16,9 @@
   - Extracted details from the live `https://paraboo.pl` website (an Asian restaurant in Bydgoszcz with Ristorio ordering system).
   - Wrote PL and EN descriptions matching the portfolio style.
   - Pushed changes directly to the portfolio GitHub repository.
+
+## [2026-04-11] Fix | Blog Layout
+- **Action:** Fixed footer behavior on short blog pages.
+- **Details:** 
+  - Added `min-height: 100vh`, `display: flex`, and `flex-direction: column` to `.blogPage` in `blog.module.css`.
+  - Added `flex-grow: 1` to `.blogInner` to push the footer to the bottom of the screen when content is short, preventing the empty space below from making the footer look oversized.
