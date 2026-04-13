@@ -22,3 +22,9 @@
 - **Details:** 
   - Added `min-height: 100vh`, `display: flex`, and `flex-direction: column` to `.blogPage` in `blog.module.css`.
   - Added `flex-grow: 1` to `.blogInner` to push the footer to the bottom of the screen when content is short, preventing the empty space below from making the footer look oversized.
+
+## [2026-04-13] Fix | Dynamic Latest Post Link
+- **Action:** Fixed the "Najnowszy wpis" (Latest post) button on the portfolio homepage to dynamically point to the newest blog post instead of a hardcoded article.
+- **Details:** 
+  - Updated `HomePage.tsx` to accept `latestPostHrefPl` and `latestPostHrefEn` as props.
+  - Updated the server components `app/page.tsx` and `app/en/page.tsx` to fetch the latest post via `getAllBlogPosts` and pass the dynamically generated URL to `HomePage`.
